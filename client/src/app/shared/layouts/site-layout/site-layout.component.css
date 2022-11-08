@@ -1,0 +1,38 @@
+.lop{
+    
+    display: flex;
+    top: 0;
+    left: 0;
+
+}
+
+ul {
+    min-height: 100vh;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: white;
+    /* border-right-style: solid; */
+    border-right-width: 1px;
+    height: 100%;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #b3c7f3;
+    color: white;
+}
+

@@ -1,0 +1,15 @@
+<p-tabMenu [model]="items"></p-tabMenu>
+
+
+
+<div class="lop">
+<ul>
+    <li routerLinkActive="active"><a routerLink="/persons">Контакты</a></li>
+    <li routerLinkActive="active"><a routerLink="/persons/:id">Календарь</a></li>
+    <li routerLinkActive="active"><a routerLink="/company">Компания</a></li>
+    <li routerLinkActive="active"><a href="http://localhost:6000/api-docs">Склад</a></li>
+</ul>
+
+<router-outlet></router-outlet>
+</div>
+
